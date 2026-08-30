@@ -13,11 +13,15 @@ Full write ups with diagrams for each fix live at **[allanninal.dev/slack](https
 - [the bot answers its own messages in an endless loop](./bot-message-echo-loop/) — https://www.allanninal.dev/slack/bot-message-echo-loop/
 - [not_in_channel: the bot was never invited to the channel](./bot-not-in-channel/) — https://www.allanninal.dev/slack/bot-not-in-channel/
 - [the same message posted three times, and the ts says why](./duplicate-messages-no-dedupe/) — https://www.allanninal.dev/slack/duplicate-messages-no-dedupe/
+- [installs keyed on team_id alone collide on Enterprise Grid](./enterprise-id-not-stored/) — https://www.allanninal.dev/slack/enterprise-id-not-stored/
+- [Slack disabled event delivery and will not turn it back on](./event-subscriptions-auto-disabled/) — https://www.allanninal.dev/slack/event-subscriptions-auto-disabled/
+- [files.upload is retired: one probe returns method_deprecated](./files-upload-retired/) — https://www.allanninal.dev/slack/files-upload-retired/
 - [slack answers HTTP 200 and puts the failure in the body](./http-200-ok-false/) — https://www.allanninal.dev/slack/http-200-ok-false/
 - [missing_scope tells you the scope needed and the ones you have](./missing-scope-on-read/) — https://www.allanninal.dev/slack/missing-scope-on-read/
 - [conversations.history clamped to 15 objects and 1 per minute](./non-marketplace-history-clamp/) — https://www.allanninal.dev/slack/non-marketplace-history-clamp/
 - [next_cursor is ignored so only the first page is ever seen](./pagination-not-followed/) — https://www.allanninal.dev/slack/pagination-not-followed/
 - [files made public with a link that works without a Slack login](./public-file-links-exposed/) — https://www.allanninal.dev/slack/public-file-links-exposed/
+- [every Slack profile has a null email and nothing errored](./users-read-email-missing/) — https://www.allanninal.dev/slack/users-read-email-missing/
 
 ## How to run one
 
